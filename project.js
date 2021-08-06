@@ -39,6 +39,7 @@ function questionP() {
   
           // **********************************************************************************************************************************************************************************************************************************************
           const body = document.body;
+          const li0 = document.createElement("li")
           const li1 = document.createElement("li");
           const li2 = document.createElement("li");
           const li3 = document.createElement("li");
@@ -47,13 +48,15 @@ function questionP() {
           li1.textContent = "Number: " + numberQ;
           li2.textContent = "Name: " + nameInfo;
           li3.textContent = "Date: " + todayIS;
+          li0.textContent = "The way you feel " + howYouFeel;
           li4.textContent = "Thoughts: " + though;
           // **********************************************************************************
           
-          body.append(li1)
-          body.append(li2)
-          body.append(li3)
-          body.append(li4)
+          body.append(li1);
+          body.append(li2);
+          body.append(li3);
+          body.append(li0);
+          body.append(li4);
         
           
 
@@ -77,6 +80,7 @@ function questionP() {
           );
           // **********************************************************************************************************************************************************************************************************************************************
           const body = document.body;
+          const li0 = document.createElement("li");
           const li1 = document.createElement("li");
           const li2 = document.createElement("li");
           const li3 = document.createElement("li");
@@ -85,13 +89,15 @@ function questionP() {
           li1.textContent = "Number: " + numberQ;
           li2.textContent = "Name: " + nameInfo;
           li3.textContent = "Date: " + todayIS;
+          li0.textContent = "The way you feel " + howYouFeel;
           li4.textContent = "Thoughts: " + though;
           // **********************************************************************************
-
-            body.append(li1);
-            body.append(li2);
-            body.append(li3);
-            body.append(li4);
+          
+          body.append(li1);
+          body.append(li2);
+          body.append(li3);
+          body.append(li0);
+          body.append(li4);
             
 
           let jE = [infoP()];
@@ -108,6 +114,7 @@ function questionP() {
           );
           // **********************************************************************************************************************************************************************************************************************************************
           const body = document.body;
+          const li0 = document.createElement("li")
           const li1 = document.createElement("li");
           const li2 = document.createElement("li");
           const li3 = document.createElement("li");
@@ -116,12 +123,15 @@ function questionP() {
           li1.textContent = "Number: " + numberQ;
           li2.textContent = "Name: " + nameInfo;
           li3.textContent = "Date: " + todayIS;
+          li0.textContent = "The way you feel " + howYouFeel;
           li4.textContent = "Thoughts: " + though;
           // **********************************************************************************
-          body.append(li1);
-          body.append(li2);
-          body.append(li3);
-          body.append(li4);
+          
+          body.append(li1)
+          body.append(li2)
+          body.append(li3)
+          body.append(li0)
+          body.append(li4)
         }
         let jE = [infoP()];
         for (let k = 0; k < jE.length; k++) {}
